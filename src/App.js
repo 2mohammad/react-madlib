@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import MadlibForm from './MadlibForm'
+import MadlibDisplay from './MadlibDisplay';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <MadlibDisplay />
       </header>
     </div>
   );
